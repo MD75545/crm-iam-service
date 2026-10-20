@@ -1,0 +1,295 @@
+2026-10-11 21:08:31.807 [restartedMain] INFO  com.crm.CrmProjectApplication - Starting CrmProjectApplication using Java 25.0.4 with PID 22544 (C:\Springboot\CRMProject\target\classes started by Mohammad in C:\Springboot\CRMProject)
+2026-10-11 21:08:31.814 [restartedMain] DEBUG com.crm.CrmProjectApplication - Running with Spring Boot v3.3.0, Spring v6.1.8
+2026-10-11 21:08:31.815 [restartedMain] INFO  com.crm.CrmProjectApplication - No active profile set, falling back to 1 default profile: "default"
+2026-10-11 21:08:31.856 [restartedMain] INFO  o.s.b.d.restart.ChangeableUrls - The Class-Path manifest attribute in C:\Users\Mohammad\.m2\repository\org\apache\kafka\kafka-clients\3.7.0\kafka-clients-3.7.0.jar referenced one or more files that do not exist: file:/C:/Users/Mohammad/.m2/repository/org/apache/kafka/kafka-clients/3.7.0/zstd-jni-1.5.5-6.jar,file:/C:/Users/Mohammad/.m2/repository/org/apache/kafka/kafka-clients/3.7.0/lz4-java-1.8.0.jar,file:/C:/Users/Mohammad/.m2/repository/org/apache/kafka/kafka-clients/3.7.0/snappy-java-1.1.10.5.jar,file:/C:/Users/Mohammad/.m2/repository/org/apache/kafka/kafka-clients/3.7.0/slf4j-api-1.7.36.jar
+2026-10-11 21:08:31.857 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-10-11 21:08:31.857 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-10-11 21:08:32.519 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2026-10-11 21:08:32.521 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-10-11 21:08:32.587 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 58 ms. Found 4 JPA repository interfaces.
+2026-10-11 21:08:32.621 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2026-10-11 21:08:32.621 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2026-10-11 21:08:32.628 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data MongoDB - Could not safely identify store assignment for repository candidate interface com.crm.repository.RefreshTokenRepository; If you want this repository to be a MongoDB repository, consider annotating your entities with one of these annotations: org.springframework.data.mongodb.core.mapping.Document (preferred), or consider extending one of the following types with your repository: org.springframework.data.mongodb.repository.MongoRepository
+2026-10-11 21:08:32.629 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data MongoDB - Could not safely identify store assignment for repository candidate interface com.crm.repository.RoleRepository; If you want this repository to be a MongoDB repository, consider annotating your entities with one of these annotations: org.springframework.data.mongodb.core.mapping.Document (preferred), or consider extending one of the following types with your repository: org.springframework.data.mongodb.repository.MongoRepository
+2026-10-11 21:08:32.629 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data MongoDB - Could not safely identify store assignment for repository candidate interface com.crm.repository.TenantRepository; If you want this repository to be a MongoDB repository, consider annotating your entities with one of these annotations: org.springframework.data.mongodb.core.mapping.Document (preferred), or consider extending one of the following types with your repository: org.springframework.data.mongodb.repository.MongoRepository
+2026-10-11 21:08:32.630 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data MongoDB - Could not safely identify store assignment for repository candidate interface com.crm.repository.UserRepository; If you want this repository to be a MongoDB repository, consider annotating your entities with one of these annotations: org.springframework.data.mongodb.core.mapping.Document (preferred), or consider extending one of the following types with your repository: org.springframework.data.mongodb.repository.MongoRepository
+2026-10-11 21:08:32.630 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 8 ms. Found 0 MongoDB repository interfaces.
+2026-10-11 21:08:33.197 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8081 (http)
+2026-10-11 21:08:33.208 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2026-10-11 21:08:33.208 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.24]
+2026-10-11 21:08:33.285 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2026-10-11 21:08:33.285 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1427 ms
+2026-10-11 21:08:33.419 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-10-11 21:08:33.512 [restartedMain] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.5.2.Final
+2026-10-11 21:08:33.561 [restartedMain] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2026-10-11 21:08:33.887 [restartedMain] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-10-11 21:08:33.926 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2026-10-11 21:08:34.165 [restartedMain] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@68d1d46
+2026-10-11 21:08:34.167 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2026-10-11 21:08:35.375 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-10-11 21:08:35.492 [restartedMain] DEBUG org.hibernate.SQL - 
+    alter table if exists public.audit_logs 
+       alter column user_agent set data type TEXT
+2026-10-11 21:08:35.505 [restartedMain] DEBUG org.hibernate.SQL - 
+    alter table if exists public.permissions 
+       alter column description set data type TEXT
+2026-10-11 21:08:35.507 [restartedMain] DEBUG org.hibernate.SQL - 
+    alter table if exists public.roles 
+       alter column description set data type TEXT
+2026-10-11 21:08:35.508 [restartedMain] DEBUG org.hibernate.SQL - 
+    alter table if exists public.tenants 
+       alter column address set data type TEXT
+2026-10-11 21:08:35.509 [restartedMain] DEBUG org.hibernate.SQL - 
+    alter table if exists public.users 
+       alter column profile_pic_url set data type TEXT
+2026-10-11 21:08:35.603 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-10-11 21:08:35.868 [restartedMain] INFO  o.s.d.j.r.query.QueryEnhancerFactory - Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-10-11 21:08:36.167 [restartedMain] DEBUG com.crm.security.JwtFilter - Filter 'jwtFilter' configured for use
+2026-10-11 21:08:36.216 [restartedMain] INFO  o.s.s.c.a.a.c.InitializeAuthenticationProviderBeanManagerConfigurer$InitializeAuthenticationProviderManagerConfigurer - Global AuthenticationManager configured with AuthenticationProvider bean with name authenticationProvider
+2026-10-11 21:08:36.217 [restartedMain] WARN  o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used for username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider.
+2026-10-11 21:08:36.380 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-10-11 21:08:36.614 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@39fb580, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@72a78785, org.springframework.security.web.context.SecurityContextHolderFilter@77cfae61, org.springframework.security.web.header.HeaderWriterFilter@5ae0b3b6, org.springframework.web.filter.CorsFilter@2b8f196d, org.springframework.security.web.authentication.logout.LogoutFilter@348a79c3, com.crm.security.JwtFilter@2aa12993, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@179530ce, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@4b6baa4e, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@6632e88d, org.springframework.security.web.session.SessionManagementFilter@63247e46, org.springframework.security.web.access.ExceptionTranslationFilter@776bf749, org.springframework.security.web.access.intercept.AuthorizationFilter@79d1130d]
+2026-10-11 21:08:37.039 [restartedMain] WARN  o.s.b.d.a.OptionalLiveReloadServer - Unable to start LiveReload server
+2026-10-11 21:08:37.077 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8081 (http) with context path '/'
+2026-10-11 21:08:37.086 [restartedMain] INFO  com.crm.CrmProjectApplication - Started CrmProjectApplication in 5.717 seconds (process running for 6.367)
+2026-10-11 21:16:08.192 [http-nio-8081-exec-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-10-11 21:16:08.199 [http-nio-8081-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2026-10-11 21:16:08.245 [http-nio-8081-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 45 ms
+2026-10-11 21:16:08.497 [http-nio-8081-exec-2] INFO  com.crm.controller.AuthController - Login attempt for email: admin2@example.com
+2026-10-11 21:16:09.135 [http-nio-8081-exec-2] DEBUG org.hibernate.SQL - 
+    select
+        u1_0.id,
+        u1_0.created_at,
+        u1_0.created_by,
+        u1_0.email,
+        u1_0.email_verified,
+        u1_0.failed_login_attempts,
+        u1_0.first_name,
+        u1_0.last_login_at,
+        u1_0.last_name,
+        u1_0.locked_until,
+        u1_0.password_hash,
+        u1_0.phone,
+        u1_0.profile_pic_url,
+        u1_0.role_id,
+        u1_0.status,
+        u1_0.tenant_id,
+        u1_0.updated_at 
+    from
+        public.users u1_0 
+    where
+        u1_0.email=?
+2026-10-11 21:16:09.178 [http-nio-8081-exec-2] DEBUG org.hibernate.SQL - 
+    select
+        r1_0.id,
+        r1_0.created_at,
+        r1_0.description,
+        r1_0.is_default,
+        r1_0.name,
+        r1_0.tenant_id,
+        r1_0.updated_at 
+    from
+        public.roles r1_0 
+    where
+        r1_0.id=?
+2026-10-11 21:16:09.203 [http-nio-8081-exec-2] DEBUG org.hibernate.SQL - 
+    select
+        t1_0.id,
+        t1_0.address,
+        t1_0.code,
+        t1_0.contact_email,
+        t1_0.contact_phone,
+        t1_0.created_at,
+        t1_0.name,
+        t1_0.status,
+        t1_0.updated_at 
+    from
+        public.tenants t1_0 
+    where
+        t1_0.id=?
+2026-10-11 21:16:09.586 [http-nio-8081-exec-2] DEBUG com.crm.service.UserService - Fetching user by email: admin2@example.com
+2026-10-11 21:16:09.590 [http-nio-8081-exec-2] DEBUG org.hibernate.SQL - 
+    select
+        u1_0.id,
+        u1_0.created_at,
+        u1_0.created_by,
+        u1_0.email,
+        u1_0.email_verified,
+        u1_0.failed_login_attempts,
+        u1_0.first_name,
+        u1_0.last_login_at,
+        u1_0.last_name,
+        u1_0.locked_until,
+        u1_0.password_hash,
+        u1_0.phone,
+        u1_0.profile_pic_url,
+        u1_0.role_id,
+        u1_0.status,
+        u1_0.tenant_id,
+        u1_0.updated_at 
+    from
+        public.users u1_0 
+    where
+        u1_0.email=?
+2026-10-11 21:16:09.858 [http-nio-8081-exec-2] DEBUG o.s.orm.jpa.JpaTransactionManager - Found thread-bound EntityManager [SessionImpl(655579351<open>)] for JPA transaction
+2026-10-11 21:16:09.858 [http-nio-8081-exec-2] DEBUG o.s.orm.jpa.JpaTransactionManager - Creating new transaction with name [com.crm.service.RefreshTokenService.createRefreshToken]: PROPAGATION_REQUIRED,ISOLATION_DEFAULT
+2026-10-11 21:16:09.866 [http-nio-8081-exec-2] DEBUG o.s.orm.jpa.JpaTransactionManager - Exposing JPA transaction as JDBC [org.springframework.orm.jpa.vendor.HibernateJpaDialect$HibernateConnectionHandle@21791ddc]
+2026-10-11 21:16:09.867 [http-nio-8081-exec-2] DEBUG com.crm.service.RefreshTokenService - Creating refresh token for user: admin2@example.com
+2026-10-11 21:16:09.887 [http-nio-8081-exec-2] DEBUG org.hibernate.SQL - 
+    select
+        u1_0.id,
+        u1_0.created_at,
+        u1_0.created_by,
+        u1_0.email,
+        u1_0.email_verified,
+        u1_0.failed_login_attempts,
+        u1_0.first_name,
+        u1_0.last_login_at,
+        u1_0.last_name,
+        u1_0.locked_until,
+        u1_0.password_hash,
+        u1_0.phone,
+        u1_0.profile_pic_url,
+        u1_0.role_id,
+        u1_0.status,
+        u1_0.tenant_id,
+        u1_0.updated_at 
+    from
+        public.users u1_0 
+    where
+        u1_0.email=?
+2026-10-11 21:16:09.898 [http-nio-8081-exec-2] DEBUG o.s.orm.jpa.JpaTransactionManager - Found thread-bound EntityManager [SessionImpl(655579351<open>)] for JPA transaction
+2026-10-11 21:16:09.898 [http-nio-8081-exec-2] DEBUG o.s.orm.jpa.JpaTransactionManager - Participating in existing transaction
+2026-10-11 21:16:09.929 [http-nio-8081-exec-2] INFO  com.crm.service.RefreshTokenService - Refresh token created for user: admin2@example.com (expires at 2026-10-18T21:16:09.890736800)
+2026-10-11 21:16:09.930 [http-nio-8081-exec-2] DEBUG o.s.orm.jpa.JpaTransactionManager - Initiating transaction commit
+2026-10-11 21:16:09.931 [http-nio-8081-exec-2] DEBUG o.s.orm.jpa.JpaTransactionManager - Committing JPA transaction on EntityManager [SessionImpl(655579351<open>)]
+2026-10-11 21:16:09.965 [http-nio-8081-exec-2] DEBUG org.hibernate.SQL - 
+    insert 
+    into
+        public.refresh_tokens
+        (created_at, expires_at, revoked, token, user_id, id) 
+    values
+        (?, ?, ?, ?, ?, ?)
+2026-10-11 21:16:09.986 [http-nio-8081-exec-2] DEBUG o.s.orm.jpa.JpaTransactionManager - Not closing pre-bound JPA EntityManager after transaction
+2026-10-11 21:16:09.986 [http-nio-8081-exec-2] INFO  com.crm.controller.AuthController - Login successful for email: admin2@example.com (tenant: 11111111-1111-1111-1111-111111111111, role: ADMIN)
+2026-10-11 21:20:48.714 [http-nio-8081-exec-4] INFO  com.crm.controller.AuthController - Login attempt for email: admin2@example.com
+2026-10-11 21:20:48.716 [http-nio-8081-exec-4] DEBUG org.hibernate.SQL - 
+    select
+        u1_0.id,
+        u1_0.created_at,
+        u1_0.created_by,
+        u1_0.email,
+        u1_0.email_verified,
+        u1_0.failed_login_attempts,
+        u1_0.first_name,
+        u1_0.last_login_at,
+        u1_0.last_name,
+        u1_0.locked_until,
+        u1_0.password_hash,
+        u1_0.phone,
+        u1_0.profile_pic_url,
+        u1_0.role_id,
+        u1_0.status,
+        u1_0.tenant_id,
+        u1_0.updated_at 
+    from
+        public.users u1_0 
+    where
+        u1_0.email=?
+2026-10-11 21:20:48.719 [http-nio-8081-exec-4] DEBUG org.hibernate.SQL - 
+    select
+        r1_0.id,
+        r1_0.created_at,
+        r1_0.description,
+        r1_0.is_default,
+        r1_0.name,
+        r1_0.tenant_id,
+        r1_0.updated_at 
+    from
+        public.roles r1_0 
+    where
+        r1_0.id=?
+2026-10-11 21:20:48.721 [http-nio-8081-exec-4] DEBUG org.hibernate.SQL - 
+    select
+        t1_0.id,
+        t1_0.address,
+        t1_0.code,
+        t1_0.contact_email,
+        t1_0.contact_phone,
+        t1_0.created_at,
+        t1_0.name,
+        t1_0.status,
+        t1_0.updated_at 
+    from
+        public.tenants t1_0 
+    where
+        t1_0.id=?
+2026-10-11 21:20:49.065 [http-nio-8081-exec-4] DEBUG com.crm.service.UserService - Fetching user by email: admin2@example.com
+2026-10-11 21:20:49.068 [http-nio-8081-exec-4] DEBUG org.hibernate.SQL - 
+    select
+        u1_0.id,
+        u1_0.created_at,
+        u1_0.created_by,
+        u1_0.email,
+        u1_0.email_verified,
+        u1_0.failed_login_attempts,
+        u1_0.first_name,
+        u1_0.last_login_at,
+        u1_0.last_name,
+        u1_0.locked_until,
+        u1_0.password_hash,
+        u1_0.phone,
+        u1_0.profile_pic_url,
+        u1_0.role_id,
+        u1_0.status,
+        u1_0.tenant_id,
+        u1_0.updated_at 
+    from
+        public.users u1_0 
+    where
+        u1_0.email=?
+2026-10-11 21:20:49.070 [http-nio-8081-exec-4] DEBUG o.s.orm.jpa.JpaTransactionManager - Found thread-bound EntityManager [SessionImpl(886169915<open>)] for JPA transaction
+2026-10-11 21:20:49.071 [http-nio-8081-exec-4] DEBUG o.s.orm.jpa.JpaTransactionManager - Creating new transaction with name [com.crm.service.RefreshTokenService.createRefreshToken]: PROPAGATION_REQUIRED,ISOLATION_DEFAULT
+2026-10-11 21:20:49.071 [http-nio-8081-exec-4] DEBUG o.s.orm.jpa.JpaTransactionManager - Exposing JPA transaction as JDBC [org.springframework.orm.jpa.vendor.HibernateJpaDialect$HibernateConnectionHandle@6fa9ae26]
+2026-10-11 21:20:49.071 [http-nio-8081-exec-4] DEBUG com.crm.service.RefreshTokenService - Creating refresh token for user: admin2@example.com
+2026-10-11 21:20:49.073 [http-nio-8081-exec-4] DEBUG org.hibernate.SQL - 
+    select
+        u1_0.id,
+        u1_0.created_at,
+        u1_0.created_by,
+        u1_0.email,
+        u1_0.email_verified,
+        u1_0.failed_login_attempts,
+        u1_0.first_name,
+        u1_0.last_login_at,
+        u1_0.last_name,
+        u1_0.locked_until,
+        u1_0.password_hash,
+        u1_0.phone,
+        u1_0.profile_pic_url,
+        u1_0.role_id,
+        u1_0.status,
+        u1_0.tenant_id,
+        u1_0.updated_at 
+    from
+        public.users u1_0 
+    where
+        u1_0.email=?
+2026-10-11 21:20:49.075 [http-nio-8081-exec-4] DEBUG o.s.orm.jpa.JpaTransactionManager - Found thread-bound EntityManager [SessionImpl(886169915<open>)] for JPA transaction
+2026-10-11 21:20:49.075 [http-nio-8081-exec-4] DEBUG o.s.orm.jpa.JpaTransactionManager - Participating in existing transaction
+2026-10-11 21:20:49.076 [http-nio-8081-exec-4] INFO  com.crm.service.RefreshTokenService - Refresh token created for user: admin2@example.com (expires at 2026-10-18T21:20:49.075499)
+2026-10-11 21:20:49.076 [http-nio-8081-exec-4] DEBUG o.s.orm.jpa.JpaTransactionManager - Initiating transaction commit
+2026-10-11 21:20:49.076 [http-nio-8081-exec-4] DEBUG o.s.orm.jpa.JpaTransactionManager - Committing JPA transaction on EntityManager [SessionImpl(886169915<open>)]
+2026-10-11 21:20:49.077 [http-nio-8081-exec-4] DEBUG org.hibernate.SQL - 
+    insert 
+    into
+        public.refresh_tokens
+        (created_at, expires_at, revoked, token, user_id, id) 
+    values
+        (?, ?, ?, ?, ?, ?)
+2026-10-11 21:20:49.079 [http-nio-8081-exec-4] DEBUG o.s.orm.jpa.JpaTransactionManager - Not closing pre-bound JPA EntityManager after transaction
+2026-10-11 21:20:49.079 [http-nio-8081-exec-4] INFO  com.crm.controller.AuthController - Login successful for email: admin2@example.com (tenant: 11111111-1111-1111-1111-111111111111, role: ADMIN)
+2026-10-11 21:29:53.296 [RMI TCP Connection(26)-10.85.142.27] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+2026-10-11 21:29:53.323 [RMI TCP Connection(26)-10.85.142.27] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-10-11 21:29:53.330 [RMI TCP Connection(26)-10.85.142.27] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2026-10-11 21:29:53.332 [RMI TCP Connection(26)-10.85.142.27] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
